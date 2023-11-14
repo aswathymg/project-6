@@ -24,6 +24,11 @@ body {
 
 }
 
+
+section {
+    scroll-margin: 85px;
+}
+
 ul {
     list-style: none;
 }
@@ -44,14 +49,14 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-
+    align-items: center;
+    color: white;
+    padding: 20px 0;
 }
 
 nav ul {
     display: flex;
     gap: 20px;
-    font-weight: 390;
-    padding: 30px;
 
 }
 
@@ -68,9 +73,6 @@ nav ul li:hover {
 .logo {
     font-size: 32px;
     font-weight: 600;
-    color: white;
-
-    padding: 20px;
 }
 
 .container {
@@ -98,10 +100,15 @@ nav ul li:hover {
     font-size: 96px;
 }
 
+.hero-section h3 {
+    font-size: 32px;
+}
+
 .music-section {
     padding-top: 50px;
     background-color: var(--purple500);
-    color: white;
+
+
 }
 
 
@@ -111,12 +118,14 @@ nav ul li:hover {
     gap: 30px;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
 .ipad-iphone-image {
     margin-top: -400px;
     position: relative;
     top: 400px;
+
 }
 
 button {
@@ -133,7 +142,6 @@ button:hover {
 
 .primary_btn {
     background-color: var(--red600);
-
     color: white;
 }
 
@@ -142,6 +150,8 @@ button:hover {
     color: white;
 }
 
+
+
 .about-music {
     padding-top: 500px;
     display: grid;
@@ -149,6 +159,8 @@ button:hover {
     gap: 50px;
     text-align: center;
     margin-bottom: 50px;
+
+
 }
 
 .video-section {
@@ -158,6 +170,7 @@ button:hover {
     place-items: center;
     color: white;
     text-align: center;
+
 }
 
 .video-section .container {
@@ -176,9 +189,8 @@ button:hover {
     background-repeat: no-repeat;
 }
 
-.gift_section .container {
+.gift_section {
     display: flex;
-
     justify-content: center;
     margin: 100px 0;
     gap: 50px;
@@ -188,4 +200,31 @@ button:hover {
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+
+
+.footer-upper {
+    background-color: var(--purple300);
+    padding: 20px;
+}
+
+.footer-upper .container {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+
+.footer-upper h4 {
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
+}
+
+.footer-lower {
+    background-color: var(--purple600);
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
 }
